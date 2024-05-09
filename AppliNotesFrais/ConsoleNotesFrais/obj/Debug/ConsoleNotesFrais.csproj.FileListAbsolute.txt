@@ -1,0 +1,12 @@
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\bin\Debug\ConsoleNotesFrais.exe.config
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\bin\Debug\ConsoleNotesFrais.exe
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\bin\Debug\ConsoleNotesFrais.pdb
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\obj\Debug\ConsoleNotesFrais.csproj.AssemblyReference.cache
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\obj\Debug\ConsoleNotesFrais.csproj.CoreCompileInputs.cache
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\obj\Debug\ConsoleNotesFrais.exe
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\obj\Debug\ConsoleNotesFrais.pdb
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\bin\Debug\LibNotesFrais.dll
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\bin\Debug\LibNotesFrais.pdb
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\obj\Debug\ConsoleNotesFrais.csproj.CopyComplete
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\bin\Debug\LibOutils.dll
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\ConsoleNotesFrais\bin\Debug\LibOutils.pdb

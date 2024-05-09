@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CA5D0E0-1D74-4FD6-A66D-732DA5690D36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FormNotesFrais</RootNamespace>
+    <AssemblyName>FormNotesFrais</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LibOutils">
+      <HintPath>..\..\..\..\..\SLAM\C#\TP\Année 2\Outils\LibOutils\LibOutils\bin\Debug\LibOutils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormNoteAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNoteAdd.Designer.cs">
+      <DependentUpon>FormNoteAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVisitAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVisitAdd.Designer.cs">
+      <DependentUpon>FormVisitAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVisitLister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVisitLister.Designer.cs">
+      <DependentUpon>FormVisitLister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PagePrincipale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagePrincipale.Designer.cs">
+      <DependentUpon>PagePrincipale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormNoteAdd.resx">
+      <DependentUpon>FormNoteAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVisitAdd.resx">
+      <DependentUpon>FormVisitAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVisitLister.resx">
+      <DependentUpon>FormVisitLister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagePrincipale.resx">
+      <DependentUpon>PagePrincipale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibNotesFrais\LibNotesFrais.csproj">
+      <Project>{8D1F8DD2-E27C-4AB4-B312-50760CF3D1DC}</Project>
+      <Name>LibNotesFrais</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

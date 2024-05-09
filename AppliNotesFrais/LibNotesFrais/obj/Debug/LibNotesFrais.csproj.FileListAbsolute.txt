@@ -1,0 +1,6 @@
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\LibNotesFrais\bin\Debug\LibNotesFrais.dll
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\LibNotesFrais\bin\Debug\LibNotesFrais.pdb
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\LibNotesFrais\obj\Debug\LibNotesFrais.csproj.AssemblyReference.cache
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\LibNotesFrais\obj\Debug\LibNotesFrais.csproj.CoreCompileInputs.cache
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\LibNotesFrais\obj\Debug\LibNotesFrais.dll
+E:\Projet\Année 2\Notes Frais\AppliNotesFrais\LibNotesFrais\obj\Debug\LibNotesFrais.pdb
